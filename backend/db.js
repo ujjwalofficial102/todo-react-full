@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("DATABASE LINK");
+mongoose.connect("DATABASE LINK"); //paste link here
 const todoSchema = new mongoose.Schema({
   title: String,
   description: String,
